@@ -1,0 +1,376 @@
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.full-width {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.img-full {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-gray-light {
+  color: $gray-light;
+}
+
+.text-gray-lighter {
+  color: $gray-lighter;
+}
+
+/*
+ * Padding and margin classes like in Bootstrap 4
+ */
+.p-l-0 {
+  padding-left: 0 !important;
+}
+.p-r-0 {
+  padding-right: 0 !important;
+}
+.p-t-0 {
+  padding-top: 0 !important;
+}
+.p-b-0 {
+  padding-bottom: 0 !important;
+}
+.p-y-0 {
+  @extend .p-l-0;
+  @extend .p-r-0;
+}
+.p-x-0 {
+  @extend .p-t-0;
+  @extend .p-b-0;
+}
+.p-0, .p-a-0 {
+  @extend .p-y-0;
+  @extend .p-x-0;
+}
+
+.p-l-05 {
+  padding-left: $grid-gutter-width/2 !important;
+}
+.p-r-05 {
+  padding-right: $grid-gutter-width/2 !important;
+}
+.p-t-05 {
+  padding-top: $grid-gutter-width/2 !important;
+}
+.p-b-05 {
+  padding-bottom: $grid-gutter-width/2 !important;
+}
+.p-y-05 {
+  @extend .p-l-05;
+  @extend .p-r-05;
+}
+.p-x-05 {
+  @extend .p-t-05;
+  @extend .p-b-05;
+}
+.p-05, .p-a-05 {
+  @extend .p-y-05;
+  @extend .p-x-05;
+}
+
+.p-l-1 {
+  padding-left: $grid-gutter-width !important;
+}
+.p-r-1 {
+  padding-right: $grid-gutter-width !important;
+}
+.p-t-1 {
+  padding-top: $grid-gutter-width !important;
+}
+.p-b-1 {
+  padding-bottom: $grid-gutter-width !important;
+}
+.p-y-1 {
+  @extend .p-l-1;
+  @extend .p-r-1;
+}
+.p-x-1 {
+  @extend .p-t-1;
+  @extend .p-b-1;
+}
+.p-1, .p-a-1 {
+  @extend .p-y-1;
+  @extend .p-x-1;
+}
+
+.p-l-2 {
+  padding-left: $grid-gutter-width*2 !important;
+}
+.p-r-2 {
+  padding-right: $grid-gutter-width*2 !important;
+}
+.p-t-2 {
+  padding-top: $grid-gutter-width*2 !important;
+}
+.p-b-2 {
+  padding-bottom: $grid-gutter-width*2 !important;
+}
+.p-y-2 {
+  @extend .p-l-2;
+  @extend .p-r-2;
+}
+.p-x-2 {
+  @extend .p-t-2;
+  @extend .p-b-2;
+}
+.p-2 {
+  @extend .p-y-2;
+  @extend .p-x-2;
+}
+
+.p-l-3 {
+  padding-left: $grid-gutter-width*3 !important;
+}
+.p-r-3 {
+  padding-right: $grid-gutter-width*3 !important;
+}
+.p-t-3 {
+  padding-top: $grid-gutter-width*3 !important;
+}
+.p-b-3 {
+  padding-bottom: $grid-gutter-width*3 !important;
+}
+.p-y-3 {
+  @extend .p-l-3;
+  @extend .p-r-3;
+}
+.p-x-3 {
+  @extend .p-t-3;
+  @extend .p-b-3;
+}
+.p-3, .p-a-3 {
+  @extend .p-y-3;
+  @extend .p-x-3;
+}
+
+// margin
+.m-l-0 {
+  margin-left: 0 !important;
+}
+.m-r-0 {
+  margin-right: 0 !important;
+}
+.m-t-0 {
+  margin-top: 0 !important;
+}
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+.m-y-0 {
+  @extend .m-l-0;
+  @extend .m-r-0;
+}
+.m-x-0 {
+  @extend .m-t-0;
+  @extend .m-b-0;
+}
+.m-0, .m-a-0 {
+  @extend .m-y-0;
+  @extend .m-x-0;
+}
+
+.m-l-05 {
+  margin-left: $grid-gutter-width/2 !important;
+}
+.m-r-05 {
+  margin-right: $grid-gutter-width/2 !important;
+}
+.m-t-05 {
+  margin-top: $grid-gutter-width/2 !important;
+}
+.m-b-05 {
+  margin-bottom: $grid-gutter-width/2 !important;
+}
+.m-y-05 {
+  @extend .m-l-05;
+  @extend .m-r-05;
+}
+.m-x-05 {
+  @extend .m-t-05;
+  @extend .m-b-05;
+}
+.m-05, .m-a-05 {
+  @extend .m-y-05;
+  @extend .m-x-05;
+}
+
+
+.m-l-1 {
+  margin-left: $grid-gutter-width !important;
+}
+.m-r-1 {
+  margin-right: $grid-gutter-width !important;
+}
+.m-t-1 {
+  margin-top: $grid-gutter-width !important;
+}
+.m-b-1 {
+  margin-bottom: $grid-gutter-width !important;
+}
+.m-y-1 {
+  @extend .m-l-1;
+  @extend .m-r-1;
+}
+.m-x-1 {
+  @extend .m-t-1;
+  @extend .m-b-1;
+}
+.m-1, .m-a-1 {
+  @extend .m-y-1;
+  @extend .m-x-1;
+}
+
+.m-l-2 {
+  margin-left: $grid-gutter-width*2 !important;
+}
+.m-r-2 {
+  margin-right: $grid-gutter-width*2 !important;
+}
+.m-t-2 {
+  margin-top: $grid-gutter-width*2 !important;
+}
+.m-b-2 {
+  margin-bottom: $grid-gutter-width*2 !important;
+}
+.m-y-2 {
+  @extend .m-l-2;
+  @extend .m-r-2;
+}
+.m-x-2 {
+  @extend .m-t-2;
+  @extend .m-b-2;
+}
+.m-2 {
+  @extend .m-y-2;
+  @extend .m-x-2;
+}
+
+.m-l-3 {
+  margin-left: $grid-gutter-width*3 !important;
+}
+.m-r-3 {
+  margin-right: $grid-gutter-width*3 !important;
+}
+.m-t-3 {
+  margin-top: $grid-gutter-width*3 !important;
+}
+.m-b-3 {
+  margin-bottom: $grid-gutter-width*3 !important;
+}
+.m-y-3 {
+  @extend .m-l-3;
+  @extend .m-r-3;
+}
+.m-x-3 {
+  @extend .m-t-3;
+  @extend .m-b-3;
+}
+.m-3, .m-a-3 {
+  @extend .m-y-3;
+  @extend .m-x-3;
+}
+
+.text-sans-serif {
+  font-family: $font-family-sans-serif;
+}
+
+.text-serif {
+  font-family: $font-family-serif;
+}
+
+.text-weight-bold {
+  font-weight: bold;
+}
+
+.text-weight-normal {
+  font-weight: normal !important;
+}
+
+.text-size-1-5 {
+  font-size: 1.5em !important;
+}
+
+.text-size-2 {
+  font-size: 2em !important;
+}
+
+.text-size-4 {
+  font-size: 4em !important;
+}
+
+.text-size-6 {
+  font-size: 6em !important;
+}
+
+// borders
+
+.no-border {
+  border: none !important;
+}
+
+.border {
+  &.white {
+    border-color: #fff;
+  }
+  &.gray-base {
+    border-color: $gray-base;
+  }
+
+  &.px-a-3 {
+    border-width: 3px;
+  }
+
+  &.px-a-2 {
+    border-width: 3px;
+  }
+
+  &.px-a-1 {
+    border-width: 1px;
+  }
+  &.px-a-0 { 
+    border-width: 0;
+  }
+
+  &.px-r-0 {
+    border-width-right: 0;
+  }
+  // complete me..
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.text-white {
+  color: #fff;
+  &::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+  }
+
+  &:-ms-input-placeholder {  
+    color: #fff;
+  }
+}

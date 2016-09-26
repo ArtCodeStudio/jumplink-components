@@ -1,0 +1,29 @@
+{
+  "name": "jumplink-components",
+  "description": "Collection of bootstrap utilities",
+  "main": "index.js",
+  "authors": [
+    "Pascal Garber <pascal@jumplink.eu>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "octobercms",
+    "shopify",
+    "components"
+  ],
+  "homepage": "https://github.com/JumpLinkNetwork/jumplink-components",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-backward": "JumpLinkNetwork/bootstrap-backward#v4-0-0-alpha-4-scss-backward",
+    "tether": "^1.3.7",
+    "simpler-sidebar": "^2.1.4"
+  }
+}

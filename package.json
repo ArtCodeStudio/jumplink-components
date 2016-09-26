@@ -1,0 +1,31 @@
+{
+  "name": "jumplink-components",
+  "version": "0.0.1",
+  "description": "Collection of bootstrap utilities",
+  "main": "index.js",
+  "scripts": {
+    "bs_variables": "./node_modules/sassdoc/bin/sassdoc ./vendor/bootstrap/scss/_variables.scss -p > dist/variables/bootstrap.json",
+    "theme_settings": "node ./utilities/generate_theme_settings.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumpLinkNetwork/jumplink-components.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "octobercms",
+    "shopify",
+    "components"
+  ],
+  "author": "Pascal Garber <pascal@jumplink.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumpLinkNetwork/jumplink-components/issues"
+  },
+  "homepage": "https://github.com/JumpLinkNetwork/jumplink-components#readme",
+  "devDependencies": {
+    "concat-files": "^0.1.0",
+    "js-yaml": "^3.6.1",
+    "write-yaml": "^0.2.2"
+  }
+}

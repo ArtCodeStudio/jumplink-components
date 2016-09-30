@@ -2,6 +2,12 @@
   @include vp-user-select(none);
 }
 
+.center-block {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table;
+}
+
 .border {
   &.table-color {
     border-color: $table-border-color;

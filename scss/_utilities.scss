@@ -28,8 +28,8 @@
   &.px-1 {
     border-width: 1px;
   }
-  &.px-0, &.no {
-    border-width: 0px;
+  &.px-0, &.border-px-0 &.no, &.border-no {
+    border-width: 0px !important;
   }
 
   &.a {

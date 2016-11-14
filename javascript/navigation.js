@@ -3,7 +3,7 @@
  * @see https://css-tricks.com/snippets/jquery/smooth-scrolling/
  */
  
-var initSmoothPageScroll = function () { 
+var initSmoothPageScroll = function () {
     $('a[href*="#"]:not([href="#"])').click(function() {
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top

@@ -1,0 +1,31 @@
+// https://v4-alpha.getbootstrap.com/utilities/sizing-and-positioning/
+
+.pos-a-t-xs {
+    @include media-breakpoint-up(xs) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: $zindex-navbar-fixed;
+    }
+}
+
+.pos-a-t-sm {
+    @include media-breakpoint-up(sm) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: $zindex-navbar-fixed;
+    }
+}
+
+.pos-a-t-md {
+    @include media-breakpoint-up(md) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: $zindex-navbar-fixed;
+    }
+}

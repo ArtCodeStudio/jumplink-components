@@ -2,7 +2,7 @@
 
 .pos-a-t-xs {
     @include media-breakpoint-up(xs) {
-        position: absolute;
+        @include vp-position(absolute);
         top: 0;
         right: 0;
         left: 0;
@@ -12,7 +12,7 @@
 
 .pos-a-t-sm {
     @include media-breakpoint-up(sm) {
-        position: absolute;
+        @include vp-position(absolute);
         top: 0;
         right: 0;
         left: 0;
@@ -22,7 +22,7 @@
 
 .pos-a-t-md {
     @include media-breakpoint-up(md) {
-        position: absolute;
+        @include vp-position(absolute);
         top: 0;
         right: 0;
         left: 0;

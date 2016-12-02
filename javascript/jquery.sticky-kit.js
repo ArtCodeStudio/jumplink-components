@@ -89,7 +89,7 @@
         if (fixed) {
           fixed = false;
           bottomed = false;
-          if (manual_spacer == null) {
+          if (manual_spacer == null && change_css) {
             elm.insertAfter(spacer);
             spacer.detach();
           }
@@ -173,7 +173,7 @@
           if (scroll < top) {
             fixed = false;
             offset = offset_top;
-            if (manual_spacer == null) {
+            if (manual_spacer == null && change_css) {
               if (el_float === "left" || el_float === "right") {
                 elm.insertAfter(spacer);
               }
@@ -222,7 +222,7 @@
             elm.addClass(sticky_class);
             
             
-            if (manual_spacer == null) {
+            if (manual_spacer == null && change_css) {
               elm.after(spacer);
               if (el_float === "left" || el_float === "right") {
                 if(change_css) {
@@ -275,7 +275,7 @@
         });
         parent.position("position", "");
         if (fixed) {
-          if (manual_spacer == null) {
+          if (manual_spacer == null && change_css) {
             if (el_float === "left" || el_float === "right") {
               elm.insertAfter(spacer);
             }

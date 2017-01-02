@@ -4,9 +4,18 @@
  */
  
 var initSmoothPageScroll = function () {
-    $('a[href*="#"]:not([href="#"])').click(function() {
+    var pathname = window.location.pathname;
+    var selectpathname = pathname.replace('/', '\\/')+"#";
+    var selector = "a[href*='"+selectpathname+"']:not([href='#'])";
+    
+    $(selector).click(function() {
+        
+        var href = $.attr(this, 'href');
+        var index = href.indexOf('#');
+        var id = href.substring(index, href.length);
+        
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
+            scrollTop: $( id ).offset().top
         }, 500);
         return true;
     });

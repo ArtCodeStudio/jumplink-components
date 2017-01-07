@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-backward": "JumpLinkNetwork/bootstrap-backward#v4-0-0-alpha-4-scss-backward",
+    "bootstrap-backward": "v4.0.0-alpha.5",
     "tether": "^1.3.7",
     "simpler-sidebar": "^2.1.4"
   }

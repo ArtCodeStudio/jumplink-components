@@ -6,6 +6,6 @@
 
 @mixin transition($transition...) {
   @if $enable-transitions {
-    @include vp-box-sizing($transition);
+    @include vp-transition($transition);
   }
 }

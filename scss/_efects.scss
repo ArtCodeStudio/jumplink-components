@@ -27,3 +27,7 @@
 .rotate-90 {
  @include vp-transform(rotate(90deg));
 }
+
+.invert {
+	filter: invert(100%);
+}

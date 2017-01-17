@@ -41,6 +41,9 @@
   &.ratio-3-4 {
     padding-top: 125%;
   }
+  &.ratio-3-10 {
+    padding-top: 30%;
+  }
 
   &.full-viewport-height {
     padding-top: 0;
@@ -72,8 +75,9 @@
   &.ratio-1-1:before {
     padding-top: 100%;
   }
-
-  /* Other ratios */
+  &.ratio-2-3:before {
+    padding-top: 150%;
+  }
   &.ratio-2-1:before {
     padding-top: 50%;
   }
@@ -89,7 +93,10 @@
   &.ratio-16-9:before {
     padding-top: 56.25%;
   }
-  &.ratio-2-3:before {
-    padding-top: 150%;
+  &.ratio-3-4:before {
+    padding-top: 125%;
+  }
+  &.ratio-3-10:before {
+    padding-top: 30%;
   }
 }

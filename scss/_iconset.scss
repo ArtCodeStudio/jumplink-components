@@ -1,6 +1,7 @@
 
 
 .iconset {
+    display: inline-block;
     // width: 32px;
     // height: 32px;
     // svg {
@@ -13,11 +14,28 @@
             fill: $black;
         }
     }
-    &.white {
+
+    &.stroke-white {
+        svg {
+            path {
+                stroke: $white !important;
+            }
+        }
+    }
+     &.fill-white {
         svg {
             fill: $white;
         }
     }
+    &.white {
+        svg {
+            fill: $white;
+            path {
+                stroke: $white !important;
+            }
+        }
+    }
+
 
     &.primary {
         svg {

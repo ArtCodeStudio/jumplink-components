@@ -13,6 +13,7 @@
   display: block;
   @include vp-background-size(cover);
   background-position: center bottom;
+  background-repeat: no-repeat;
 
   // background-color: $brand-danger; // fallback if no image is found
 
@@ -45,9 +46,11 @@
     padding-top: 30%;
   }
 
-  &.full-viewport-height {
+  &.ratio-height-fullscreen {
     padding-top: 0;
     height: 100vh;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
 }
@@ -99,4 +102,9 @@
   &.ratio-3-10:before {
     padding-top: 30%;
   }
+}
+
+.height-fullscreen {
+    height: 100vh;
+    width: auto;
 }

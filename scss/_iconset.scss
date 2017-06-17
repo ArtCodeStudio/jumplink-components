@@ -9,7 +9,8 @@
 
     &.stroke-black {
         svg {
-            path {
+            stroke: $black !important;
+            * {
                 stroke: $black !important;
             }
         }

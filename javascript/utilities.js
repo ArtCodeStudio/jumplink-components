@@ -252,3 +252,13 @@ jumplink.initSmoothPageScroll = function () {
         return true;
     });
 }
+
+/**
+ * Close all opend bootstrap modals
+ * @see http://v4-alpha.getbootstrap.com/components/modal/
+ */
+jumplink.closeAllModals = function () {
+  jumplink.cache.$body.removeClass('modal-open').removeAttr('style');
+};
+
+

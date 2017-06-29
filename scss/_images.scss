@@ -15,13 +15,23 @@
   @include vp-background-size(contain !important);
 }
 
+.background-position-center-center {
+  background-position: center center;
+}
+
+.background-position-center-bottom {
+  background-position: center bottom;
+}
+
+
 // ASPECT RATIO size for background images
 .background-box {
   width: 100%;
   display: block;
-  @include vp-background-size(cover);
-  background-position: center bottom;
   background-repeat: no-repeat;
+  @include vp-background-size(cover);
+  background-position: center center;
+
 
   // background-color: $brand-danger; // fallback if no image is found
 

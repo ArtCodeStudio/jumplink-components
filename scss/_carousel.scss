@@ -76,3 +76,25 @@
         opacity: $slick-arrow-opacity-disabled;
     }
 }
+
+// if you use the iconset the slick controls should not have content
+.slick-prev-iconset, .slick-next-iconset {
+    &:before {
+        content: none !important;
+    }
+}
+
+// colors
+.controls-danger {
+    .slick-prev:before, .slick-next:before,
+    .slick-dots li button:before {
+        color: $brand-danger !important;
+    }
+}
+
+.controls-warning {
+    .slick-prev:before, .slick-next:before,
+    .slick-dots li button:before {
+        color: $brand-warning !important;
+    }
+}

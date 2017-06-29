@@ -24,6 +24,10 @@
   -ms-filter: "FlipV";
 }
 
+.rotate-0 {
+  @include vp-transform(rotate(0deg));
+}
+
 .rotate-45 {
   @include vp-transform(rotate(45deg));
 }
@@ -52,7 +56,7 @@
   @include vp-transform(rotate(315deg));
 }
 
-.rotate-45, .rotate-90, .rotate-135, .rotate-180, .rotate-225, .rotate-270, .rotate-315 {
+.rotate-0, .rotate-45, .rotate-90, .rotate-135, .rotate-180, .rotate-225, .rotate-270, .rotate-315 {
   @include vp-transition(transform 0.5s ease);
 }
 

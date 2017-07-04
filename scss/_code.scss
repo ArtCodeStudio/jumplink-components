@@ -12,25 +12,20 @@ pre[class*="language-"] {
  * @see based on https://github.com/PrismJS/prism-themes/blob/master/themes/prism-vs.css
  */
 
-$color-code:               $code-color; //#f8f8f2 !default;
-$color-code-background:    $code-bg !default; //#272822 !default;
+$color-code:               $code-color !default;
+$color-code-background:    $code-bg !default;
 $color-code-punctuation:   #000000 !default;
 $color-code-tag:           #9a050f !default;
 $color-code-selector:      #00009f !default;
 $color-code-keyword:       #0000ff !default;
 
-$base-code-tab-size:       2 !default;
-$base-code-font-weight:    normal !default;
-$base-code-font-family:    'Ubuntu Mono', Consolas, Monaco, 'Andale Mono', monospace !default;
-$base-code-font-size:      $code-font-size; // 14px !default;
+$base-code-tab-size:       4 !default;
+$pre-padding-x: 1em !default;
+$pre-padding-y: 1em !default;
 
 code[class*="language-"],
 pre[class*="language-"] {
     color: $color-code;
-    text-shadow: none;
-    font-weight: $base-code-font-weight;
-    font-size: $base-code-font-size;
-    font-family: $base-code-font-family;
     direction: ltr;
     text-align: left;
     white-space: pre;
@@ -61,7 +56,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-    padding: $code-padding-x $code-padding-y;
+    padding: $pre-padding-x $pre-padding-y;
     margin: .5em 0;
     overflow: auto;
 }

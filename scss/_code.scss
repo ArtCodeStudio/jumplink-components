@@ -10,7 +10,7 @@ $color-code:               $code-color !default;
 $color-code-background:    $code-bg !default;
 $color-code-punctuation:   #000000 !default;
 $color-code-tag:           #9a050f !default;
-$color-code-selector:      #00009f !default;
+$color-code-selector:      #3c763d !default;
 $color-code-keyword:       #0000ff !default;
 
 $base-code-tab-size:       4 !default;
@@ -114,7 +114,7 @@ pre[class*="language-"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-    color: #C3E984;
+    color: $color-code-keyword;
 }
 
 .token.function {

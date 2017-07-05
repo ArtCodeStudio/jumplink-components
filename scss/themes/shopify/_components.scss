@@ -1,0 +1,9 @@
+// underline nav
+.nav-tabs {
+  @extend .nav-tabs.nav-tabs-underline;
+
+}
+
+.card-header {
+  background-color: $card-cap-bg;
+}

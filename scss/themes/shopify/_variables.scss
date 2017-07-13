@@ -4,6 +4,7 @@ $black: rgb(33, 43, 53);
 $gray-dark: #212b35;
 $gray: #637381;
 $gray-light: #dfe4e8;
+$gray-lighter: #ebeef0;
 $gray-lightest: #f4f6f8;
 $teal: #47c1bf;
 $purple: #5c6ac4;
@@ -13,7 +14,7 @@ $blue: #007ace; // link color
 
 $brand-primary: $purple;
 
-$body-bg: $gray-lightest;
+$body-bg: $gray-lighter;
 
 // cards
 $card-cap-bg: $white;
@@ -26,3 +27,7 @@ $nav-tabs-active-link-hover-bg: $white;
 
 // inputs
 $input-border-focus: $brand-primary;
+
+// breadcrumbs
+$breadcrumb-divider-color: $black;
+$breadcrumb-active-color: $black;

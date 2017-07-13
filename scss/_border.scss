@@ -46,13 +46,13 @@
 .border-color-gray {
   border-color: $gray;
 }
-.border-color-gray-light {
+.border-color-gray-light, .border-color-light {
   border-color: $gray-light;
 }
-.border-color-gray-lighter {
+.border-color-gray-lighter, .border-color-lighter {
   border-color: $gray-lighter;
 }
-.border-color-gray-lightest {
+.border-color-gray-lightest, .border-color-lightest {
   border-color: $gray-lightest;
 }
 

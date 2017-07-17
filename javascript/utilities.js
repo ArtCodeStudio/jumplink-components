@@ -69,12 +69,25 @@ jumplink.preloadImages = function (arrayOfImages) {
  * Replace no images
  * Useful to replace Shopify Images with a custom placeholder image
  */
-jumplink.replaceNoImage = function() {
-  var $images = $('[src*="no-image-compact.gif"]');
+jumplink.replaceNoImageSrc = function() {
+  var $images = $('[src*="no-image-"]');
   $images.each(function(index) {
     var $this = $(this);
     $this.attr('src', window.product.noImageSrc);
   });
+}
+
+jumplink.replaceNoImageBackground = function() {
+  var $images = $('[style*="no-image-"]');
+  $images.each(function(index) {
+    var $this = $(this);
+    $this.attr('style', 'background-image: url(' + window.product.noImageSrc + ');');
+  });
+}
+
+jumplink.replaceNoImage = function() {
+  jumplink.replaceNoImageSrc();
+  jumplink.replaceNoImageBackground();
 }
 
 /**

@@ -132,7 +132,7 @@
         }
     }
 
-
+    // black
     &.black, &.fill-black {
         svg {
             fill: $black !important;
@@ -149,6 +149,75 @@
         }
     }
 
+    // gray
+    &.gray, &.fill-gray {
+        svg {
+            fill: $gray !important;
+            * {
+                fill: $gray !important;
+            }
+        }
+    }
+    &.stroke-gray {
+        svg {
+            path {
+                stroke: $gray !important;
+            }
+        }
+    }
+
+    // gray-light
+    &.gray-light, &.fill-gray-light {
+        svg {
+            fill: $gray-light !important;
+            * {
+                fill: $gray-light !important;
+            }
+        }
+    }
+    &.stroke-gray-light {
+        svg {
+            path {
+                stroke: $gray-light !important;
+            }
+        }
+    }
+
+    // gray-lighter
+    &.gray-lighter, &.fill-gray-lighter {
+        svg {
+            fill: $gray-lighter !important;
+            * {
+                fill: $gray-lighter !important;
+            }
+        }
+    }
+    &.stroke-gray-lighter {
+        svg {
+            path {
+                stroke: $gray-lighter !important;
+            }
+        }
+    }
+
+    // gray-lightest
+    &.gray-lightest, &.fill-gray-lightest {
+        svg {
+            fill: $gray-lightest !important;
+            * {
+                fill: $gray-lightest !important;
+            }
+        }
+    }
+    &.stroke-gray-lightest {
+        svg {
+            path {
+                stroke: $gray-lightest !important;
+            }
+        }
+    }
+
+    // whote
     &.fill-white, &.white {
         svg {
             fill: $white !important;
@@ -200,7 +269,7 @@
         }
     }
     
-     &.fill-info, &.info {
+    &.fill-info, &.info {
         svg {
             fill: $brand-info !important;
             * {
@@ -208,7 +277,7 @@
             }
         }
     }
-     &.stroke-info {
+    &.stroke-info {
         svg {
             stroke: $brand-info !important;
             * {
@@ -217,7 +286,7 @@
         }
     }
     
-     &.fill-warning, &.warning {
+    &.fill-warning, &.warning {
         svg {
             fill: $brand-warning !important;
             * {
@@ -225,7 +294,7 @@
             }
         }
     }
-     &.stroke-warning {
+    &.stroke-warning {
         svg {
             stroke: $brand-warning !important;
             * {
@@ -234,7 +303,7 @@
         }
     }
 
-     &.fill-danger, &.danger {
+    &.fill-danger, &.danger {
         svg {
             fill: $brand-danger !important;
             * {
@@ -242,7 +311,7 @@
             }
         }
     }
-     &.stroke-danger {
+    &.stroke-danger {
         svg {
             stroke: $brand-danger !important;
             * {
@@ -302,3 +371,75 @@ a {
     }
 }
 
+.page-link {
+    // fill color
+    .iconset {
+        &.fill-pagination-color, &.pagination-color {
+            svg {
+                fill: $pagination-color !important;
+                * {
+                    fill: $pagination-color !important;
+                }
+            }
+        }
+    }
+    &:hover {
+        .iconset {
+            &.fill-pagination-color, &.pagination-color {
+                svg {
+                    fill: $pagination-hover-color !important;
+                    * {
+                        fill: $pagination-hover-color !important;
+                    }
+                }
+            }
+        }
+    }
+
+    // stroke color
+    .iconset {
+        &.stroke-pagination-color {
+            svg {
+                stroke: $pagination-color !important;
+                * {
+                    stroke: $pagination-color !important;
+                }
+            }
+        }
+    }
+    &:hover {
+        .iconset {
+            &.stroke-pagination-color {
+                svg {
+                    stroke: $pagination-hover-color !important;
+                    * {
+                        stroke: $pagination-hover-color !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+[disabled], .disabled {
+    .page-link {
+        .iconset {
+            &.fill-pagination-color, &.pagination-color {
+                svg {
+                    fill: $pagination-disabled-color !important;
+                    * {
+                        fill: $pagination-disabled-color !important;
+                    }
+                }
+            }
+            &.stroke-pagination-color {
+                svg {
+                    stroke: $pagination-disabled-color !important;
+                    * {
+                        stroke: $pagination-disabled-color !important;
+                    }
+                }
+            }
+        }
+    }
+}

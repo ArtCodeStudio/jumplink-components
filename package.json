@@ -25,7 +25,7 @@
   "homepage": "https://github.com/JumpLinkNetwork/jumplink-components#readme",
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.6",
-    "bootstrap-backward": "v4.0.0-alpha.6",
+    "bootstrap-backward": "4.0.0-alpha.6",
     "prismjs": "^1.6.0",
     "sass-autoprefixer": "JumpLinkNetwork/sass-autoprefixer#master",
     "simpler-sidebar": "^2.1.4",

@@ -21,9 +21,9 @@
 // use this only if the gradient should not be animated, see http://www.hongkiat.com/blog/css-gradient-border/
 .gradient-border-warning-danger {
     border: 1px solid transparent;
-    -moz-border-image: -moz-linear-gradient(top left, $brand-warning 0%, $brand-danger 100%);
-    -webkit-border-image: -webkit-linear-gradient(top left, $brand-warning 0%, $brand-danger 100%);
-    border-image: linear-gradient(top left, $brand-warning 0%, $brand-danger 100%);
+    -moz-border-image: -moz-linear-gradient(to bottom left, $brand-warning 0%, $brand-danger 100%);
+    -webkit-border-image: -webkit-linear-gradient(to bottom left, $brand-warning 0%, $brand-danger 100%);
+    border-image: linear-gradient(to bottom left, $brand-warning 0%, $brand-danger 100%);
     border-image-slice: 1;
 }
 

@@ -1,6 +1,5 @@
 @import 'variables';
-@import '../vendor/sass-autoprefixer/scss/prefixes';
-@import '../node_modules/sass-autoprefixer/scss/prefixes';
+@import '../vendor/sass-prefix-mixins/scss/prefixes';
 @import 'utilities';
 @import 'fixes';
 @import '../vendor/bootstrap-backward/scss/bootstrap';

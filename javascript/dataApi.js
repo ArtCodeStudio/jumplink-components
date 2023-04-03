@@ -1,5 +1,5 @@
 // JumpLink functions
-jumplink = window.jumplink || {};
+const jumplink = window.jumplink || {};
 
 /**
  * Data bindings to call slick methods with target

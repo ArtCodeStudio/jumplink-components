@@ -1,5 +1,5 @@
 // JumpLink functions
-jumplink = window.jumplink || {};
+const jumplink = window.jumplink || {};
 
 // Do not use window.alert!
 (function(proxied) {
